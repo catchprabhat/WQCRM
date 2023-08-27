@@ -351,7 +351,7 @@ function iboNavigation(activePage) {
             <li><a id="Logout" href="https://c0hcv782.caspio.com/folderlogout"><i class="bx bx-log-out"></i><span class="link_name">Logout</span></a></li>');
 
     }
-    if (commType != 'HWL') {
+    if (commType && commType != 'HWL') {
         $('#Leads').hide(); // hide leads if  commType != HWL
     }
     if (activePage) {
