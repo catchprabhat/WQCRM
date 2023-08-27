@@ -317,6 +317,8 @@ function getUrlVars() {
 
 function iboNavigation(activePage) {
     var user = sessionStorage.getItem("userType");
+    var commType = sessionStorage.getItem("commType");
+
     if (user == "ibo") {
         $('#wqmenu').html('<li><a id="Dashboard" href="/WQCRM/ibo/ibodashboard.html"><i class="bx bx-grid-alt"></i><span class="link_name">Dashboard</span></a></li>\
             <li><a id="Engage" href="/WQCRM/ibo/coursesalesreport.html"><i class="bx bxs-badge-dollar"></i><span class="link_name">Engage</span></a></li>\
@@ -341,8 +343,16 @@ function iboNavigation(activePage) {
             <li><a href="/WQCRM/social/approvetestimonials.html">Approve Testimonial</a></li>\
             </ul></li>\
             <li><a id="Profile" href="/WQCRM/iboprofileupdate.html"><i class="bx bx-user-pin"></i><span class="link_name">Profile</span></a></li>\
+            <li><a id="Leads" href="#"><i class="bx bx-body"></i><span class="link_name">Leads</span></a><i class="bx bxs-chevron-down arrow"></i>\
+            <ul class="sub-menu"><li><a href="/WQCRM/leadmanagement/leads.html">Community Leads</a></li>\
+            <li><a href="/WQCRM/leadmanagement/leadmanagement.html">Claim Leads</a></li><li><a href="/WQCRM/leadmanagement/personalleads.html">My Personal Leads</a></li>\
+            <li><a href="/WQCRM/leadmanagement/blindleads.html">My Blind Leads</a></li>\
+            </ul></li>\
             <li><a id="Logout" href="https://c0hcv782.caspio.com/folderlogout"><i class="bx bx-log-out"></i><span class="link_name">Logout</span></a></li>');
 
+    }
+    if (commType != 'HWL') {
+        $('#Leads').hide(); // hide leads if  commType != HWL
     }
     if (activePage) {
         $('#' + activePage).addClass('active');
