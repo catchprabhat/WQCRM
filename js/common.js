@@ -324,11 +324,7 @@ function iboNavigation(activePage) {
             <li><a id="Engage" href="/WQCRM/ibo/coursesalesreport.html"><i class="bx bxs-badge-dollar"></i><span class="link_name">Engage</span></a></li>\
             <li><a id="Customers" href="/WQCRM/viewcustomers_wq.html"><i class="bx bx-group"></i><span class="link_name">Customers</span></a></li>\
             <li><a id="Resources" href="/WQCRM/resourceList.html"><i class="bx bx-link"></i><span class="link_name">Resources</span></a></li>\
-            <li><a id="Social" href="#"><i class="bx bx-shape-polygon"></i><span class="link_name">Social</span></a><i class="bx bxs-chevron-down arrow"></i>\
-            <ul class="sub-menu"><li><a href="/WQCRM/social/testimonial.html">Submit Testimonial</a></li>\
-            <li><a href="/WQCRM/social/mytestimonial.html">My Testimonial</a></li><li><a href="/WQCRM/social/viewalltestimonial.html">View Testimonial</a></li>\
-            <li><a href="/WQCRM/social/approvetestimonials.html">Approve Testimonial</a></li>\
-            </ul></li>\
+            <li><a id="Social" href="/WQCRM/social/testimonial.html"><i class="bx bx-shape-polygon"></i><span class="link_name">Social</span></a></li>\
             <li><a id="Profile" href="/WQCRM/iboprofileupdate.html"><i class="bx bx-user-pin"></i><span class="link_name">Profile</span></a></li>\
             <li><a id="Logout" href="https://c0hcv782.caspio.com/folderlogout"><i class="bx bx-log-out"></i><span class="link_name">Logout</span></a></li>');
     } else {
@@ -337,17 +333,9 @@ function iboNavigation(activePage) {
             <li><a id="Engage" href="/WQCRM/platinum/coursesalesreportPlatinum.html"><i class="bx bxs-badge-dollar"></i><span class="link_name">Engage</span></a></li>\
             <li><a id="Customers" href="/WQCRM/viewcustomers_wq.html"><i class="bx bx-group"></i><span class="link_name">Customers</span></a></li>\
             <li><a id="Resources" href="/WQCRM/resourceList.html"><i class="bx bx-link"></i><span class="link_name">Resources</span></a></li>\
-            <li><a id="Social" href="#"><i class="bx bx-shape-polygon"></i><span class="link_name">Social</span></a><i class="bx bxs-chevron-down arrow"></i>\
-            <ul class="sub-menu"><li><a href="/WQCRM/social/testimonial.html">Submit Testimonial</a></li>\
-            <li><a href="/WQCRM/social/mytestimonial.html">My Testimonial</a></li><li><a href="/WQCRM/social/viewalltestimonial.html">View Testimonial</a></li>\
-            <li><a href="/WQCRM/social/approvetestimonials.html">Approve Testimonial</a></li>\
-            </ul></li>\
+            <li><a id="Social" href="/WQCRM/social/testimonial.html"><i class="bx bx-shape-polygon"></i><span class="link_name">Social</span></a><i class="bx bxs-chevron-down arrow"></i></li>\
             <li><a id="Profile" href="/WQCRM/iboprofileupdate.html"><i class="bx bx-user-pin"></i><span class="link_name">Profile</span></a></li>\
-            <li><a id="Leads" href="#"><i class="bx bx-body"></i><span class="link_name">Leads</span></a><i class="bx bxs-chevron-down arrow"></i>\
-            <ul class="sub-menu"><li><a href="/WQCRM/leadmanagement/leads.html">Community Leads</a></li>\
-            <li><a href="/WQCRM/leadmanagement/leadmanagement.html">Claim Leads</a></li><li><a href="/WQCRM/leadmanagement/personalleads.html">My Personal Leads</a></li>\
-            <li><a href="/WQCRM/leadmanagement/blindleads.html">My Blind Leads</a></li>\
-            </ul></li>\
+            <li><a id="Leads" href="/WQCRM/leadmanagement/leadmanagement.html"><i class="bx bx-body"></i><span class="link_name">Leads</span></a></li>\
             <li><a id="Logout" href="https://c0hcv782.caspio.com/folderlogout"><i class="bx bx-log-out"></i><span class="link_name">Logout</span></a></li>');
 
     }
